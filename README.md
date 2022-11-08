@@ -4,7 +4,7 @@
 - Period: November 4, 2022 ~ November 7, 2022
 - Number of people: 1 person
 - IED: Jupyter Notebook
-- skill: python3, ADTK
+- skill: python3, ADTK, openCV
   
 ### The contents of a study
 - It was conducted based on pig experiment data by a university.
@@ -35,7 +35,7 @@
 - 기간: 2022.11.04.~ 2022.11.07.
 - 인원: 1명
 - IED: Jupyter Notebook
-- skill: python3, ADTK
+- skill: python3, ADTK, openCV
   
 ### 연구 내용
 - 모 대학교에서 진행한 돼지 실험데이터를 기반으로 진행한다.
