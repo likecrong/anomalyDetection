@@ -17,9 +17,9 @@
 2. Data preprocessing: the data exceeding UML for data frames is replaced with zero.
 3. Data Analysis and Visualization:
 	- (1) modifying the algorithm of the persistAD function of the ADTK.
-		- original algorithm : aggregate(rolling) -> anomalydetection
-		- fixed algorithm : aggregate(rolling)-> resample -> anomalydetection
-	- (2) Applying some numbers like '1h' and '12h' to the window of the 'rolling' and 'resample' functions, and then the detector found anomalies.
+		- original algorithm : aggregate(DRA) -> anomalydetection
+		- fixed algorithm : aggregate(DRA)-> resample -> anomalydetection
+	- (2) Applying some numbers like '1h' and '12h' to the window of the 'DRA' and 'resample' functions, and then the detector found anomalies.
 	- (3) Framing data for anomalies.
 	- (4) Visualizing the data and anomalies.
 	- (5) Repeat (3) and (4) for the process of (2).
@@ -48,9 +48,9 @@
 2. 데이터 전처리: 데이터프레임에 대해 UML을 초과하는 데이터는 0으로 대체한다.
 3. 데이터 분석 및 시각화: 
 	- (1) ADTK의 persistAD 함수의 알고리즘을 수정한다.
-		- original 알고리즘 : aggregate(rolling) -> anomalydetection
-		- fixed 알고리즘 : aggregate(rolling)-> resample -> anomalydetection
-	- (2) rolling, resample 함수에 여러 단위를 적용하면서 이상치를 탐지한다.
+		- original 알고리즘 : aggregate(DRA) -> anomalydetection
+		- fixed 알고리즘 : aggregate(DRA)-> resample -> anomalydetection
+	- (2) DRA, resample 함수에 여러 단위를 적용하면서 이상치를 탐지한다.
 	- (3) 이상치에 대해 데이터 프레임화 한다.
 	- (4) 데이터와 이상치에 대해 시각화한다.
 	- (5) (2)의 과정에 대해 (3),(4)를 반복하면서 분석을 진행한다.
